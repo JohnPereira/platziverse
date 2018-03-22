@@ -1,0 +1,30 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A Simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnPereira/platziverse.git"
+  },
+  "author": "John Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnPereira/platziverse/issues"
+  },
+  "homepage": "https://github.com/JohnPereira/platziverse#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "ava": "^0.25.0",
+    "debug": "^3.1.0",
+    "inquirer": "^5.1.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.3"
+  }
+}
